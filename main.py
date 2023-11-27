@@ -10,8 +10,7 @@ class Field:
     def value(self, new_value):
         self.validate(new_value)
         self._value = new_value
-    def validate(self, value):
-        pass
+    
 
 class Name(Field):
     pass
